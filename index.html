@@ -118,6 +118,38 @@
     border-color: var(--accent);
   }
   .mode-toggle.active:hover { background: #a13c25; }
+
+  /* ============ Mobile / narrow-screen tweaks ============ */
+  @media (max-width: 700px) {
+    .app { padding: 16px 14px 60px; }
+    header { margin-bottom: 12px; }
+    h1 { font-size: 19px; }
+
+    /* Filter row: hide redundant label, chips take full row,
+       action buttons wrap to their own row with browse-mode right-aligned */
+    .filter-row { gap: 8px; margin-bottom: 14px; }
+    .filter-label { display: none; }
+    .filter-chips { flex-basis: 100%; }
+    .mode-toggle { margin-left: auto; }
+
+    /* Description label column narrower so notes have more room */
+    .desc { padding: 14px 14px; font-size: 13.5px; }
+    .desc .label { flex: 0 0 60px; font-size: 10px; }
+
+    /* Card text scales down a bit */
+    .kanji { font-size: 28px; }
+    .en-name { font-size: 20px; }
+
+    /* Bottom controls wrap cleanly if cramped */
+    .controls { flex-wrap: wrap; gap: 8px; }
+    .left-controls { flex: 1 1 auto; }
+  }
+  @media (max-width: 420px) {
+    .kanji { font-size: 24px; }
+    .romaji { font-size: 14px; }
+    .face-placeholder { font-size: 12px; min-height: 90px; }
+    .face-photo.hidden .face-placeholder { min-height: 160px; }
+  }
   .empty-state {
     padding: 60px 20px;
     text-align: center;

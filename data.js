@@ -11,7 +11,8 @@ window.SUSHI_ENTRIES = [
     "slug": "honmaguro-kuromaguro",
     "hasPhoto": true,
     "taste": "Premium maguro: deep red, intense umami, oceanic depth; benchmark sushi flavor.",
-    "category": "Tuna"
+    "category": "Tuna",
+    "season": ["winter"]
   },
   {
     "romaji": "Minami-maguro",
@@ -24,7 +25,8 @@ window.SUSHI_ENTRIES = [
     "slug": "minami-maguro",
     "hasPhoto": true,
     "taste": "Like bluefin but more pronounced fattiness; rich, clean, deeply savory.",
-    "category": "Tuna"
+    "category": "Tuna",
+    "season": ["winter"]
   },
   {
     "romaji": "Mebachi-maguro",
@@ -37,7 +39,8 @@ window.SUSHI_ENTRIES = [
     "slug": "mebachi-maguro",
     "hasPhoto": true,
     "taste": "Mid-rich, balanced umami; the workhorse for everyday akami and chūtoro.",
-    "category": "Tuna"
+    "category": "Tuna",
+    "season": ["summer"]
   },
   {
     "romaji": "Kihada-maguro",
@@ -50,7 +53,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kihada-maguro",
     "hasPhoto": true,
     "taste": "Lean, clean, subtle iron-y umami; lighter than other tunas.",
-    "category": "Tuna"
+    "category": "Tuna",
+    "season": ["summer"]
   },
   {
     "romaji": "Binnaga / Binchō-maguro",
@@ -63,7 +67,8 @@ window.SUSHI_ENTRIES = [
     "slug": "binnaga-bincho-maguro",
     "hasPhoto": true,
     "taste": "Pale, mild, soft; the lightest, most delicate tuna flavor.",
-    "category": "Tuna"
+    "category": "Tuna",
+    "season": ["summer"]
   },
   {
     "romaji": "Akami",
@@ -154,7 +159,8 @@ window.SUSHI_ENTRIES = [
     "slug": "katsuo",
     "hasPhoto": true,
     "taste": "Smoky, lean, savory; pronounced umami and a slight iron note.",
-    "category": "Tuna"
+    "category": "Tuna",
+    "season": ["summer", "autumn"]
   },
   {
     "romaji": "Katsuo tataki",
@@ -180,7 +186,8 @@ window.SUSHI_ENTRIES = [
     "slug": "madai",
     "hasPhoto": true,
     "taste": "Delicate, lightly sweet, very clean — the benchmark white fish.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["spring"]
   },
   {
     "romaji": "Tai",
@@ -193,7 +200,8 @@ window.SUSHI_ENTRIES = [
     "slug": "tai",
     "hasPhoto": true,
     "taste": "Mild and lightly sweet; prototypical clean white fish flavor.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["spring"]
   },
   {
     "romaji": "Chidai",
@@ -206,7 +214,8 @@ window.SUSHI_ENTRIES = [
     "slug": "chidai",
     "hasPhoto": true,
     "taste": "Similar to madai but lighter and cleaner; subtle sweetness.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["spring"]
   },
   {
     "romaji": "Renkodai",
@@ -219,7 +228,8 @@ window.SUSHI_ENTRIES = [
     "slug": "renkodai",
     "hasPhoto": true,
     "taste": "Mild and soft; often vinegared, which adds tangy brightness.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["spring"]
   },
   {
     "romaji": "Kurodai",
@@ -232,7 +242,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kurodai",
     "hasPhoto": true,
     "taste": "Stronger, slightly earthy; deeper umami than madai.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Kinmedai",
@@ -245,7 +256,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kinmedai",
     "hasPhoto": true,
     "taste": "Soft, rich, sweet, slightly oily; gorgeous when aburi.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Nodoguro / Akamutsu",
@@ -258,7 +270,8 @@ window.SUSHI_ENTRIES = [
     "slug": "nodoguro-akamutsu",
     "hasPhoto": true,
     "taste": "Buttery and rich, almost foie-gras-like fat with a clean finish.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Suzuki",
@@ -271,7 +284,8 @@ window.SUSHI_ENTRIES = [
     "slug": "suzuki",
     "hasPhoto": true,
     "taste": "Light, clean, mildly sweet; firm springy flesh.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Seigo",
@@ -284,7 +298,8 @@ window.SUSHI_ENTRIES = [
     "slug": "seigo",
     "hasPhoto": true,
     "taste": "Lighter than suzuki; very mild and clean.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Fukko",
@@ -297,7 +312,8 @@ window.SUSHI_ENTRIES = [
     "slug": "fukko",
     "hasPhoto": true,
     "taste": "Clean and mild, slightly fattier than seigo.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Hirame",
@@ -310,7 +326,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hirame",
     "hasPhoto": true,
     "taste": "Delicate, mild, springy; clean finish.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Engawa",
@@ -323,7 +340,8 @@ window.SUSHI_ENTRIES = [
     "slug": "engawa",
     "hasPhoto": true,
     "taste": "Gelatinous and chewy, rich and slightly fatty.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Karei",
@@ -336,7 +354,8 @@ window.SUSHI_ENTRIES = [
     "slug": "karei",
     "hasPhoto": true,
     "taste": "Mild, lightly sweet, softer than hirame.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Makogarei",
@@ -349,7 +368,8 @@ window.SUSHI_ENTRIES = [
     "slug": "makogarei",
     "hasPhoto": true,
     "taste": "Premium hirame-like fish; sweet, clean, summery.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Ishigarei",
@@ -362,7 +382,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ishigarei",
     "hasPhoto": true,
     "taste": "Clean and mild with a subtly mineral edge.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Ōhyō",
@@ -375,7 +396,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ohyo",
     "hasPhoto": true,
     "taste": "Meatier and less springy than hirame; mild, slightly sweet, larger flake.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Hata",
@@ -388,7 +410,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hata",
     "hasPhoto": true,
     "taste": "Firm, sweet, mineral.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Kue",
@@ -401,7 +424,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kue",
     "hasPhoto": true,
     "taste": "Buttery and rich; winter luxury fish.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Mahata",
@@ -414,7 +438,8 @@ window.SUSHI_ENTRIES = [
     "slug": "mahata",
     "hasPhoto": true,
     "taste": "Premium grouper: firm, deeply savory, almost crustacean-sweet.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["autumn"]
   },
   {
     "romaji": "Kijihata",
@@ -427,7 +452,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kijihata",
     "hasPhoto": true,
     "taste": "Sweet and clean with a slight iron note.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Ara",
@@ -440,7 +466,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ara",
     "hasPhoto": true,
     "taste": "Varies by region; usually rich and gelatinous.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Ishidai",
@@ -453,7 +480,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ishidai",
     "hasPhoto": true,
     "taste": "Firm, sweet, almost crustacean-like in flavor.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["summer", "autumn"]
   },
   {
     "romaji": "Ishigakidai",
@@ -466,7 +494,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ishigakidai",
     "hasPhoto": true,
     "taste": "Like ishidai but cleaner and richer; rare premium.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["summer", "autumn"]
   },
   {
     "romaji": "Hōbō",
@@ -479,7 +508,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hobo",
     "hasPhoto": true,
     "taste": "Firm white fish; sweet, clean, slightly mineral.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Kochi / Magochi",
@@ -492,7 +522,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kochi-magochi",
     "hasPhoto": true,
     "taste": "Light, sweet, clean; summery white fish.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Amadai",
@@ -505,7 +536,8 @@ window.SUSHI_ENTRIES = [
     "slug": "amadai",
     "hasPhoto": true,
     "taste": "Sweet, soft, slightly rosy; very delicate.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Aka-amadai",
@@ -518,7 +550,8 @@ window.SUSHI_ENTRIES = [
     "slug": "aka-amadai",
     "hasPhoto": true,
     "taste": "Premium amadai; richer sweetness, soft texture.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Shiro-amadai",
@@ -531,7 +564,8 @@ window.SUSHI_ENTRIES = [
     "slug": "shiro-amadai",
     "hasPhoto": true,
     "taste": "Most premium amadai; intensely sweet and soft.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Itoyori",
@@ -544,7 +578,8 @@ window.SUSHI_ENTRIES = [
     "slug": "itoyori",
     "hasPhoto": true,
     "taste": "Delicate, sweet, soft; quietly luxurious.",
-    "category": "White fish"
+    "category": "White fish",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Buri",
@@ -557,7 +592,8 @@ window.SUSHI_ENTRIES = [
     "slug": "buri",
     "hasPhoto": true,
     "taste": "Fattier and deeper than hamachi; strong umami, peak winter flavor.",
-    "category": "Yellowtail"
+    "category": "Yellowtail",
+    "season": ["winter"]
   },
   {
     "romaji": "Hamachi",
@@ -570,7 +606,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hamachi",
     "hasPhoto": true,
     "taste": "Buttery and rich with a clean finish.",
-    "category": "Yellowtail"
+    "category": "Yellowtail",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Inada",
@@ -583,7 +620,8 @@ window.SUSHI_ENTRIES = [
     "slug": "inada",
     "hasPhoto": true,
     "taste": "Lighter version of buri; cleaner, less fatty.",
-    "category": "Yellowtail"
+    "category": "Yellowtail",
+    "season": ["winter"]
   },
   {
     "romaji": "Buri-toro / Hamachi-toro",
@@ -596,7 +634,8 @@ window.SUSHI_ENTRIES = [
     "slug": "buri-toro-hamachi-toro",
     "hasPhoto": true,
     "taste": "Belly cut: rich, buttery fat that coats the palate.",
-    "category": "Yellowtail"
+    "category": "Yellowtail",
+    "season": ["winter"]
   },
   {
     "romaji": "Kanpachi",
@@ -609,7 +648,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kanpachi",
     "hasPhoto": true,
     "taste": "Firm, clean, faintly sweet — leaner than hamachi.",
-    "category": "Yellowtail"
+    "category": "Yellowtail",
+    "season": ["summer", "autumn"]
   },
   {
     "romaji": "Hiramasa",
@@ -622,7 +662,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hiramasa",
     "hasPhoto": true,
     "taste": "Premium amberjack; firm, clean, with subtle sweetness.",
-    "category": "Yellowtail"
+    "category": "Yellowtail",
+    "season": ["summer"]
   },
   {
     "romaji": "Shima-aji",
@@ -635,7 +676,8 @@ window.SUSHI_ENTRIES = [
     "slug": "shima-aji",
     "hasPhoto": true,
     "taste": "Firm, fatty, sweet, beautifully balanced.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Aji",
@@ -648,7 +690,8 @@ window.SUSHI_ENTRIES = [
     "slug": "aji",
     "hasPhoto": true,
     "taste": "Oily and savory; refreshing with grated ginger and scallion.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Ma-aji",
@@ -661,7 +704,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ma-aji",
     "hasPhoto": true,
     "taste": "Classic horse mackerel: oily, savory, deeply umami.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Muro-aji",
@@ -674,7 +718,8 @@ window.SUSHI_ENTRIES = [
     "slug": "muro-aji",
     "hasPhoto": true,
     "taste": "Stronger, oilier than ma-aji; more pronounced fishiness.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Saba",
@@ -687,7 +732,8 @@ window.SUSHI_ENTRIES = [
     "slug": "saba",
     "hasPhoto": true,
     "taste": "Oily, rich, strong umami; bold flavor.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Ma-saba",
@@ -700,7 +746,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ma-saba",
     "hasPhoto": true,
     "taste": "Classic chub mackerel: rich, clean, the prototypical saba.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Shime-saba",
@@ -713,7 +760,8 @@ window.SUSHI_ENTRIES = [
     "slug": "shime-saba",
     "hasPhoto": true,
     "taste": "Tangy, rich, balanced acidity that cuts the oil.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Sawara",
@@ -726,7 +774,8 @@ window.SUSHI_ENTRIES = [
     "slug": "sawara",
     "hasPhoto": true,
     "taste": "Soft, rich, mildly oily; lovely when seared.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["spring"]
   },
   {
     "romaji": "Sagoshi",
@@ -739,7 +788,8 @@ window.SUSHI_ENTRIES = [
     "slug": "sagoshi",
     "hasPhoto": true,
     "taste": "Lighter sawara: clean, soft, mild.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["autumn"]
   },
   {
     "romaji": "Iwashi",
@@ -752,7 +802,8 @@ window.SUSHI_ENTRIES = [
     "slug": "iwashi",
     "hasPhoto": true,
     "taste": "Soft, oily, intense umami.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["summer", "autumn"]
   },
   {
     "romaji": "Ma-iwashi",
@@ -765,7 +816,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ma-iwashi",
     "hasPhoto": true,
     "taste": "Classic sardine: rich, oily, savory.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["summer", "autumn"]
   },
   {
     "romaji": "Katakuchi-iwashi",
@@ -778,7 +830,8 @@ window.SUSHI_ENTRIES = [
     "slug": "katakuchi-iwashi",
     "hasPhoto": true,
     "taste": "Anchovy: deeply savory and briny, more pungent than sardine.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Kohada",
@@ -791,7 +844,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kohada",
     "hasPhoto": true,
     "taste": "Tangy, oily, distinctive — a connoisseur's pick.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["autumn"]
   },
   {
     "romaji": "Shinko",
@@ -804,7 +858,8 @@ window.SUSHI_ENTRIES = [
     "slug": "shinko",
     "hasPhoto": true,
     "taste": "Delicate, briefly tangy; seasonal luxury.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Konoshiro",
@@ -817,7 +872,8 @@ window.SUSHI_ENTRIES = [
     "slug": "konoshiro",
     "hasPhoto": true,
     "taste": "Stronger and oilier than kohada; more assertive.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["autumn"]
   },
   {
     "romaji": "Sayori",
@@ -830,7 +886,8 @@ window.SUSHI_ENTRIES = [
     "slug": "sayori",
     "hasPhoto": true,
     "taste": "Light, clean, faintly cucumber-like; elegant.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["spring"]
   },
   {
     "romaji": "Sanma",
@@ -843,7 +900,8 @@ window.SUSHI_ENTRIES = [
     "slug": "sanma",
     "hasPhoto": true,
     "taste": "Rich, oily, slightly bitter; deeply seasonal autumn flavor.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["autumn"]
   },
   {
     "romaji": "Kamasu",
@@ -856,7 +914,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kamasu",
     "hasPhoto": true,
     "taste": "Firm and mild; really shines when seared.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["autumn"]
   },
   {
     "romaji": "Akakamasu",
@@ -869,7 +928,8 @@ window.SUSHI_ENTRIES = [
     "slug": "akakamasu",
     "hasPhoto": true,
     "taste": "Slightly richer than kamasu with sweeter flesh.",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["autumn"]
   },
   {
     "romaji": "Tachiuo",
@@ -882,7 +942,8 @@ window.SUSHI_ENTRIES = [
     "slug": "tachiuo",
     "hasPhoto": true,
     "taste": "Mild, soft, slightly oily; great seared (aburi).",
-    "category": "Oily fish"
+    "category": "Oily fish",
+    "season": ["summer", "autumn"]
   },
   {
     "romaji": "Sāmon",
@@ -895,7 +956,8 @@ window.SUSHI_ENTRIES = [
     "slug": "samon",
     "hasPhoto": true,
     "taste": "Buttery, mildly sweet, soft; the modern sushi staple.",
-    "category": "Salmon"
+    "category": "Salmon",
+    "season": ["autumn"]
   },
   {
     "romaji": "Sake / Shake",
@@ -908,7 +970,8 @@ window.SUSHI_ENTRIES = [
     "slug": "sake-shake",
     "hasPhoto": true,
     "taste": "Traditional Japanese salmon; cleaner and slightly leaner than imported sāmon.",
-    "category": "Salmon"
+    "category": "Salmon",
+    "season": ["autumn"]
   },
   {
     "romaji": "Sakura-masu",
@@ -921,7 +984,8 @@ window.SUSHI_ENTRIES = [
     "slug": "sakura-masu",
     "hasPhoto": true,
     "taste": "Delicate, sweet, soft; spring seasonal.",
-    "category": "Salmon"
+    "category": "Salmon",
+    "season": ["spring"]
   },
   {
     "romaji": "Trout salmon",
@@ -934,7 +998,8 @@ window.SUSHI_ENTRIES = [
     "slug": "trout-salmon",
     "hasPhoto": true,
     "taste": "Buttery and mild; the common farmed sushi 'salmon.'",
-    "category": "Salmon"
+    "category": "Salmon",
+    "season": ["spring"]
   },
   {
     "romaji": "Salmon toro / Harasu",
@@ -947,7 +1012,8 @@ window.SUSHI_ENTRIES = [
     "slug": "salmon-toro-harasu",
     "hasPhoto": true,
     "taste": "Rich, buttery belly fat; melts on contact.",
-    "category": "Salmon"
+    "category": "Salmon",
+    "season": ["autumn"]
   },
   {
     "romaji": "Aburi-sāmon",
@@ -960,7 +1026,8 @@ window.SUSHI_ENTRIES = [
     "slug": "aburi-samon",
     "hasPhoto": true,
     "taste": "Torch-seared salmon: smoky exterior over fatty raw center.",
-    "category": "Salmon"
+    "category": "Salmon",
+    "season": ["autumn"]
   },
   {
     "romaji": "Ayu",
@@ -973,7 +1040,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ayu",
     "hasPhoto": true,
     "taste": "Sweetfish: delicate flesh, slightly bitter organs; usually grilled.",
-    "category": "Salmon"
+    "category": "Salmon",
+    "season": ["summer"]
   },
   {
     "romaji": "Iwana",
@@ -986,7 +1054,8 @@ window.SUSHI_ENTRIES = [
     "slug": "iwana",
     "hasPhoto": true,
     "taste": "Char: clean, mild, slightly sweet; mountain-stream fish.",
-    "category": "Salmon"
+    "category": "Salmon",
+    "season": ["summer"]
   },
   {
     "romaji": "Nijimasu",
@@ -999,7 +1068,8 @@ window.SUSHI_ENTRIES = [
     "slug": "nijimasu",
     "hasPhoto": true,
     "taste": "Trout: clean, mild, lightly sweet.",
-    "category": "Salmon"
+    "category": "Salmon",
+    "season": ["spring"]
   },
   {
     "romaji": "Wakasagi",
@@ -1012,7 +1082,8 @@ window.SUSHI_ENTRIES = [
     "slug": "wakasagi",
     "hasPhoto": true,
     "taste": "Smelt: delicate and lightly sweet (almost always fried).",
-    "category": "Salmon"
+    "category": "Salmon",
+    "season": ["winter"]
   },
   {
     "romaji": "Anago",
@@ -1025,7 +1096,8 @@ window.SUSHI_ENTRIES = [
     "slug": "anago",
     "hasPhoto": true,
     "taste": "Soft, fluffy, mildly sweet; lighter than unagi.",
-    "category": "Eel & rare fish"
+    "category": "Eel & rare fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Hamo",
@@ -1038,7 +1110,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hamo",
     "hasPhoto": true,
     "taste": "Light, clean, mildly sweet; Kansai summer specialty.",
-    "category": "Eel & rare fish"
+    "category": "Eel & rare fish",
+    "season": ["summer"]
   },
   {
     "romaji": "Unagi",
@@ -1051,7 +1124,8 @@ window.SUSHI_ENTRIES = [
     "slug": "unagi",
     "hasPhoto": true,
     "taste": "Rich, smoky-sweet, tender; lacquered with sweet tare.",
-    "category": "Eel & rare fish"
+    "category": "Eel & rare fish",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Kimo",
@@ -1064,7 +1138,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kimo",
     "hasPhoto": true,
     "taste": "Rich and slightly bitter; deep liver flavor.",
-    "category": "Eel & rare fish"
+    "category": "Eel & rare fish",
+    "season": ["autumn"]
   },
   {
     "romaji": "Noresore",
@@ -1077,7 +1152,8 @@ window.SUSHI_ENTRIES = [
     "slug": "noresore",
     "hasPhoto": true,
     "taste": "Delicate and jelly-like, mildly sweet; spring delicacy.",
-    "category": "Eel & rare fish"
+    "category": "Eel & rare fish",
+    "season": ["spring"]
   },
   {
     "romaji": "Fugu",
@@ -1090,7 +1166,8 @@ window.SUSHI_ENTRIES = [
     "slug": "fugu",
     "hasPhoto": true,
     "taste": "Firm, lean, with a subtle sweetness; texture is the point.",
-    "category": "Eel & rare fish"
+    "category": "Eel & rare fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Tora-fugu",
@@ -1103,7 +1180,8 @@ window.SUSHI_ENTRIES = [
     "slug": "tora-fugu",
     "hasPhoto": true,
     "taste": "Premium fugu: clean, slightly sweet, beautifully firm.",
-    "category": "Eel & rare fish"
+    "category": "Eel & rare fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Fugu-kawa",
@@ -1116,7 +1194,8 @@ window.SUSHI_ENTRIES = [
     "slug": "fugu-kawa",
     "hasPhoto": true,
     "taste": "Skin: gelatinous, mild, faintly sweet.",
-    "category": "Eel & rare fish"
+    "category": "Eel & rare fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Fugu shirako",
@@ -1129,7 +1208,8 @@ window.SUSHI_ENTRIES = [
     "slug": "fugu-shirako",
     "hasPhoto": true,
     "taste": "Creamy, rich, almost custard-like; intensely savory.",
-    "category": "Eel & rare fish"
+    "category": "Eel & rare fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Kawahagi",
@@ -1142,7 +1222,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kawahagi",
     "hasPhoto": true,
     "taste": "Lean and mild, slightly sweet flesh.",
-    "category": "Eel & rare fish"
+    "category": "Eel & rare fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Kawahagi kimo",
@@ -1155,7 +1236,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kawahagi-kimo",
     "hasPhoto": true,
     "taste": "Rich liver paired with the lean meat — together, transformative.",
-    "category": "Eel & rare fish"
+    "category": "Eel & rare fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Umazura-hagi",
@@ -1168,7 +1250,8 @@ window.SUSHI_ENTRIES = [
     "slug": "umazura-hagi",
     "hasPhoto": true,
     "taste": "Similar to kawahagi: clean, mild, slightly sweet.",
-    "category": "Eel & rare fish"
+    "category": "Eel & rare fish",
+    "season": ["winter"]
   },
   {
     "romaji": "Ankō",
@@ -1181,7 +1264,8 @@ window.SUSHI_ENTRIES = [
     "slug": "anko",
     "hasPhoto": true,
     "taste": "Firm, lean white meat; rare raw, often hot-pot.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["winter"]
   },
   {
     "romaji": "Ankimo",
@@ -1194,7 +1278,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ankimo",
     "hasPhoto": true,
     "taste": "Rich, foie-gras-like liver; intensely savory and creamy.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["winter"]
   },
   {
     "romaji": "Tara",
@@ -1207,7 +1292,8 @@ window.SUSHI_ENTRIES = [
     "slug": "tara",
     "hasPhoto": true,
     "taste": "Mild, flaky white fish.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["winter"]
   },
   {
     "romaji": "Madara",
@@ -1220,7 +1306,8 @@ window.SUSHI_ENTRIES = [
     "slug": "madara",
     "hasPhoto": true,
     "taste": "Same as tara: mild and flaky, lightly sweet.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["winter"]
   },
   {
     "romaji": "Gindara",
@@ -1233,7 +1320,8 @@ window.SUSHI_ENTRIES = [
     "slug": "gindara",
     "hasPhoto": true,
     "taste": "Buttery, rich, melting; mild but luxurious. The fat is the whole point.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["winter"]
   },
   {
     "romaji": "Shirako",
@@ -1246,7 +1334,8 @@ window.SUSHI_ENTRIES = [
     "slug": "shirako",
     "hasPhoto": true,
     "taste": "Creamy and rich, custard-like; cod or fugu milt.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["winter"]
   },
   {
     "romaji": "Shirauo",
@@ -1259,7 +1348,8 @@ window.SUSHI_ENTRIES = [
     "slug": "shirauo",
     "hasPhoto": true,
     "taste": "Tiny and translucent; clean and mildly sweet.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["spring"]
   },
   {
     "romaji": "Shirouo",
@@ -1272,7 +1362,8 @@ window.SUSHI_ENTRIES = [
     "slug": "shirouo",
     "hasPhoto": true,
     "taste": "Like shirauo but firmer; clean and mild.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["spring"]
   },
   {
     "romaji": "Shirasu",
@@ -1285,7 +1376,8 @@ window.SUSHI_ENTRIES = [
     "slug": "shirasu",
     "hasPhoto": true,
     "taste": "Tiny baby fish: soft, salty, briny.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["spring"]
   },
   {
     "romaji": "Nama-shirasu",
@@ -1298,7 +1390,8 @@ window.SUSHI_ENTRIES = [
     "slug": "nama-shirasu",
     "hasPhoto": true,
     "taste": "Raw whitebait: soft, oceanic, briny.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["spring"]
   },
   {
     "romaji": "Haze",
@@ -1311,7 +1404,8 @@ window.SUSHI_ENTRIES = [
     "slug": "haze",
     "hasPhoto": true,
     "taste": "Clean and mild; usually fried.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["autumn"]
   },
   {
     "romaji": "Mebaru",
@@ -1324,7 +1418,8 @@ window.SUSHI_ENTRIES = [
     "slug": "mebaru",
     "hasPhoto": true,
     "taste": "Firm, mild, slightly sweet rockfish.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["spring"]
   },
   {
     "romaji": "Kasago",
@@ -1337,7 +1432,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kasago",
     "hasPhoto": true,
     "taste": "Firm, sweet, clean.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["winter"]
   },
   {
     "romaji": "Oni-kasago",
@@ -1350,7 +1446,8 @@ window.SUSHI_ENTRIES = [
     "slug": "oni-kasago",
     "hasPhoto": true,
     "taste": "Premium scorpionfish: sweet and rich.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["winter"]
   },
   {
     "romaji": "Medai",
@@ -1363,7 +1460,8 @@ window.SUSHI_ENTRIES = [
     "slug": "medai",
     "hasPhoto": true,
     "taste": "Mild, soft, slightly buttery white fish.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["winter"]
   },
   {
     "romaji": "Managatsuo",
@@ -1376,7 +1474,8 @@ window.SUSHI_ENTRIES = [
     "slug": "managatsuo",
     "hasPhoto": true,
     "taste": "Rich, soft, oily; pomfret.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["summer"]
   },
   {
     "romaji": "Ibodai / Ebodai",
@@ -1389,7 +1488,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ibodai-ebodai",
     "hasPhoto": true,
     "taste": "Soft, oily, slightly sweet butterfish.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["winter"]
   },
   {
     "romaji": "Mekajiki",
@@ -1402,7 +1502,8 @@ window.SUSHI_ENTRIES = [
     "slug": "mekajiki",
     "hasPhoto": true,
     "taste": "Firm and meaty; mildly sweet swordfish.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Kajiki",
@@ -1415,7 +1516,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kajiki",
     "hasPhoto": true,
     "taste": "Like mekajiki: mild, meaty.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Makajiki",
@@ -1428,7 +1530,8 @@ window.SUSHI_ENTRIES = [
     "slug": "makajiki",
     "hasPhoto": true,
     "taste": "Slightly leaner marlin; clean and sweet.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["winter"]
   },
   {
     "romaji": "Kurokajiki",
@@ -1441,7 +1544,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kurokajiki",
     "hasPhoto": true,
     "taste": "Firm, mild, lean.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["summer"]
   },
   {
     "romaji": "Akamanbō",
@@ -1454,7 +1558,8 @@ window.SUSHI_ENTRIES = [
     "slug": "akamanbo",
     "hasPhoto": true,
     "taste": "Mildly sweet, oddly rich; sometimes mistaken for tuna.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["winter"]
   },
   {
     "romaji": "Eihire",
@@ -1467,7 +1572,8 @@ window.SUSHI_ENTRIES = [
     "slug": "eihire",
     "hasPhoto": true,
     "taste": "Chewy and smoky; classic bar snack.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["winter"]
   },
   {
     "romaji": "Ebi",
@@ -1480,7 +1586,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ebi",
     "hasPhoto": true,
     "taste": "Sweet, firm, clean; cooked classic.",
-    "category": "Crustaceans"
+    "category": "Crustaceans",
+    "season": ["summer"]
   },
   {
     "romaji": "Kuruma-ebi",
@@ -1493,7 +1600,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kuruma-ebi",
     "hasPhoto": true,
     "taste": "Premium classic: sweet, firm, briny — Edo-mae standard.",
-    "category": "Crustaceans"
+    "category": "Crustaceans",
+    "season": ["summer", "winter"]
   },
   {
     "romaji": "Ama-ebi",
@@ -1506,7 +1614,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ama-ebi",
     "hasPhoto": true,
     "taste": "Soft, sweet, almost creamy; raw.",
-    "category": "Crustaceans"
+    "category": "Crustaceans",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Botan-ebi",
@@ -1519,7 +1628,8 @@ window.SUSHI_ENTRIES = [
     "slug": "botan-ebi",
     "hasPhoto": true,
     "taste": "Large, soft, intensely sweet.",
-    "category": "Crustaceans"
+    "category": "Crustaceans",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Shiro-ebi",
@@ -1532,7 +1642,8 @@ window.SUSHI_ENTRIES = [
     "slug": "shiro-ebi",
     "hasPhoto": true,
     "taste": "Tiny and delicate, very sweet — Toyama specialty.",
-    "category": "Crustaceans"
+    "category": "Crustaceans",
+    "season": ["summer"]
   },
   {
     "romaji": "Sakura-ebi",
@@ -1545,7 +1656,8 @@ window.SUSHI_ENTRIES = [
     "slug": "sakura-ebi",
     "hasPhoto": true,
     "taste": "Crunchy, briny, intense; eaten whole.",
-    "category": "Crustaceans"
+    "category": "Crustaceans",
+    "season": ["spring", "autumn"]
   },
   {
     "romaji": "Zuwai-gani",
@@ -1558,7 +1670,8 @@ window.SUSHI_ENTRIES = [
     "slug": "zuwai-gani",
     "hasPhoto": true,
     "taste": "Premium snow crab: sweet and tender.",
-    "category": "Crustaceans"
+    "category": "Crustaceans",
+    "season": ["winter"]
   },
   {
     "romaji": "Kegani",
@@ -1571,7 +1684,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kegani",
     "hasPhoto": true,
     "taste": "Hokkaido horsehair crab: rich, sweet, tender.",
-    "category": "Crustaceans"
+    "category": "Crustaceans",
+    "season": ["spring"]
   },
   {
     "romaji": "Taraba-gani",
@@ -1584,7 +1698,8 @@ window.SUSHI_ENTRIES = [
     "slug": "taraba-gani",
     "hasPhoto": true,
     "taste": "King crab: meaty, sweet, firm.",
-    "category": "Crustaceans"
+    "category": "Crustaceans",
+    "season": ["winter"]
   },
   {
     "romaji": "Hanasaki-gani",
@@ -1597,7 +1712,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hanasaki-gani",
     "hasPhoto": true,
     "taste": "Smaller than taraba but far more flavorful — sweet, intense, with exceptionally rich kani-miso.",
-    "category": "Crustaceans"
+    "category": "Crustaceans",
+    "season": ["summer", "autumn"]
   },
   {
     "romaji": "Gazami / Watari-gani",
@@ -1610,7 +1726,8 @@ window.SUSHI_ENTRIES = [
     "slug": "gazami-watari-gani",
     "hasPhoto": true,
     "taste": "Blue swimming crab: sweet, soft, briny.",
-    "category": "Crustaceans"
+    "category": "Crustaceans",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Kani-miso",
@@ -1623,7 +1740,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kani-miso",
     "hasPhoto": true,
     "taste": "Intensely briny, oceanic, savory; creamy paste texture; concentrates the essence of the crab.",
-    "category": "Crustaceans"
+    "category": "Crustaceans",
+    "season": ["winter"]
   },
   {
     "romaji": "Shako",
@@ -1636,7 +1754,8 @@ window.SUSHI_ENTRIES = [
     "slug": "shako",
     "hasPhoto": true,
     "taste": "Sweet, firm, slightly briny; classic Edo-mae.",
-    "category": "Crustaceans"
+    "category": "Crustaceans",
+    "season": ["spring"]
   },
   {
     "romaji": "Ika",
@@ -1649,7 +1768,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ika",
     "hasPhoto": true,
     "taste": "Subtly sweet and chewy; very clean.",
-    "category": "Squid & octopus"
+    "category": "Squid & octopus",
+    "season": ["summer"]
   },
   {
     "romaji": "Surume-ika",
@@ -1662,7 +1782,8 @@ window.SUSHI_ENTRIES = [
     "slug": "surume-ika",
     "hasPhoto": true,
     "taste": "Common squid: firm, mildly sweet.",
-    "category": "Squid & octopus"
+    "category": "Squid & octopus",
+    "season": ["summer", "autumn"]
   },
   {
     "romaji": "Aori-ika",
@@ -1675,7 +1796,8 @@ window.SUSHI_ENTRIES = [
     "slug": "aori-ika",
     "hasPhoto": true,
     "taste": "Premium reef squid: very sweet and soft.",
-    "category": "Squid & octopus"
+    "category": "Squid & octopus",
+    "season": ["summer", "autumn"]
   },
   {
     "romaji": "Yari-ika",
@@ -1688,7 +1810,8 @@ window.SUSHI_ENTRIES = [
     "slug": "yari-ika",
     "hasPhoto": true,
     "taste": "Delicate, soft, sweet.",
-    "category": "Squid & octopus"
+    "category": "Squid & octopus",
+    "season": ["winter"]
   },
   {
     "romaji": "Sumi-ika / Kōika",
@@ -1701,7 +1824,8 @@ window.SUSHI_ENTRIES = [
     "slug": "sumi-ika-koika",
     "hasPhoto": true,
     "taste": "Cuttlefish: firm and sweet.",
-    "category": "Squid & octopus"
+    "category": "Squid & octopus",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Hotaru-ika",
@@ -1714,7 +1838,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hotaru-ika",
     "hasPhoto": true,
     "taste": "Tiny firefly squid: rich, briny, intense.",
-    "category": "Squid & octopus"
+    "category": "Squid & octopus",
+    "season": ["spring"]
   },
   {
     "romaji": "Geso",
@@ -1727,7 +1852,8 @@ window.SUSHI_ENTRIES = [
     "slug": "geso",
     "hasPhoto": true,
     "taste": "Chewy legs; clean and mildly sweet.",
-    "category": "Squid & octopus"
+    "category": "Squid & octopus",
+    "season": ["autumn"]
   },
   {
     "romaji": "Enpera",
@@ -1740,7 +1866,8 @@ window.SUSHI_ENTRIES = [
     "slug": "enpera",
     "hasPhoto": true,
     "taste": "Chewier squid fin; clean and briny.",
-    "category": "Squid & octopus"
+    "category": "Squid & octopus",
+    "season": ["autumn"]
   },
   {
     "romaji": "Tako",
@@ -1753,7 +1880,8 @@ window.SUSHI_ENTRIES = [
     "slug": "tako",
     "hasPhoto": true,
     "taste": "Firm, chewy, mildly sweet.",
-    "category": "Squid & octopus"
+    "category": "Squid & octopus",
+    "season": ["summer"]
   },
   {
     "romaji": "Madako",
@@ -1766,7 +1894,8 @@ window.SUSHI_ENTRIES = [
     "slug": "madako",
     "hasPhoto": true,
     "taste": "Common octopus: firm and sweet.",
-    "category": "Squid & octopus"
+    "category": "Squid & octopus",
+    "season": ["summer"]
   },
   {
     "romaji": "Mizudako",
@@ -1779,7 +1908,8 @@ window.SUSHI_ENTRIES = [
     "slug": "mizudako",
     "hasPhoto": true,
     "taste": "Softer and more watery-tender than standard madako; sweet.",
-    "category": "Squid & octopus"
+    "category": "Squid & octopus",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Nama-dako",
@@ -1792,7 +1922,8 @@ window.SUSHI_ENTRIES = [
     "slug": "nama-dako",
     "hasPhoto": true,
     "taste": "Raw octopus: tender, mildly sweet.",
-    "category": "Squid & octopus"
+    "category": "Squid & octopus",
+    "season": ["summer"]
   },
   {
     "romaji": "Tako ashi",
@@ -1805,7 +1936,8 @@ window.SUSHI_ENTRIES = [
     "slug": "tako-ashi",
     "hasPhoto": true,
     "taste": "Octopus leg: classic firm-sweet bite.",
-    "category": "Squid & octopus"
+    "category": "Squid & octopus",
+    "season": ["summer"]
   },
   {
     "romaji": "Murasaki uni",
@@ -1818,7 +1950,8 @@ window.SUSHI_ENTRIES = [
     "slug": "murasaki-uni",
     "hasPhoto": true,
     "taste": "Lighter and cleaner than bafun; pale yellow, delicate sweetness with subtle brine.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Bafun uni",
@@ -1831,7 +1964,8 @@ window.SUSHI_ENTRIES = [
     "slug": "bafun-uni",
     "hasPhoto": true,
     "taste": "Rich, intensely sweet-briny; deep orange. The 'luxury' uni profile.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Aka uni",
@@ -1844,7 +1978,8 @@ window.SUSHI_ENTRIES = [
     "slug": "aka-uni",
     "hasPhoto": true,
     "taste": "Deeper, brinier, aromatic — less Hokkaido-creamy, more intensely oceanic.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["spring"]
   },
   {
     "romaji": "Kita-murasaki uni",
@@ -1857,7 +1992,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kita-murasaki-uni",
     "hasPhoto": true,
     "taste": "Lighter and cleaner than bafun; gentle sweetness, minimal brine.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Rishiri / Rebun",
@@ -1870,7 +2006,8 @@ window.SUSHI_ENTRIES = [
     "slug": "rishiri-rebun",
     "hasPhoto": false,
     "taste": "Very sweet, deep umami, clean finish — the kombu-water flavor signature.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Rausu / Shiretoko",
@@ -1883,7 +2020,8 @@ window.SUSHI_ENTRIES = [
     "slug": "rausu-shiretoko",
     "hasPhoto": false,
     "taste": "Big umami, rich, dashi-like depth — broth-savory.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Hamanaka / Kiritappu",
@@ -1896,7 +2034,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hamanaka-kiritappu",
     "hasPhoto": false,
     "taste": "Clean, sweet, often excellent in ensui format.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Shakotan / Yoichi",
@@ -1909,7 +2048,8 @@ window.SUSHI_ENTRIES = [
     "slug": "shakotan-yoichi",
     "hasPhoto": false,
     "taste": "Bright, sweet, briny — very seasonal summer character.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Matsumae / Esashi / Okushiri",
@@ -1922,7 +2062,8 @@ window.SUSHI_ENTRIES = [
     "slug": "matsumae-esashi-okushiri",
     "hasPhoto": false,
     "taste": "Lighter, sweet, clean — typical of high-quality kita-murasaki.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Kyushu aka-uni zone",
@@ -1935,7 +2076,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kyushu-aka-uni-zone",
     "hasPhoto": false,
     "taste": "Deeper, brinier, aromatic — less Hokkaido-creamy, more intense.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["spring"]
   },
   {
     "romaji": "Awaji / Setouchi",
@@ -1948,7 +2090,8 @@ window.SUSHI_ENTRIES = [
     "slug": "awaji-setouchi",
     "hasPhoto": false,
     "taste": "Elegant, marine, niche — legitimate but less famous.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Ensui uni",
@@ -1961,7 +2104,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ensui-uni",
     "hasPhoto": false,
     "taste": "Cleanest expression of the uni — pure sweetness and brine, no metallic edge.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Ita uni / Ban-ju uni",
@@ -1974,7 +2118,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ita-banju-uni",
     "hasPhoto": false,
     "taste": "Depends on alum level and species — clean-and-sweet to bitter-metallic.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Myōban uni",
@@ -1987,7 +2132,8 @@ window.SUSHI_ENTRIES = [
     "slug": "myoban-uni",
     "hasPhoto": false,
     "taste": "Firmer lobes, but a bitter-metallic edge masks natural sweetness.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Myōban-nashi",
@@ -2000,7 +2146,8 @@ window.SUSHI_ENTRIES = [
     "slug": "myoban-nashi",
     "hasPhoto": false,
     "taste": "Clean, sweet, no metallic edge — but lobes are softer and may break.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Bara uni",
@@ -2013,7 +2160,8 @@ window.SUSHI_ENTRIES = [
     "slug": "bara-uni",
     "hasPhoto": false,
     "taste": "Flavor depends on the source urchin, not the format — can taste excellent.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Narabi",
@@ -2026,7 +2174,8 @@ window.SUSHI_ENTRIES = [
     "slug": "narabi-uni",
     "hasPhoto": false,
     "taste": "Presentation grade; flavor depends on origin, species, and alum level.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Ikiuni / Kara-tsuki uni",
@@ -2039,7 +2188,8 @@ window.SUSHI_ENTRIES = [
     "slug": "live-uni",
     "hasPhoto": false,
     "taste": "Most oceanic and alive-tasting when good — but a roll of the dice per urchin.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Uni no burando",
@@ -2052,7 +2202,8 @@ window.SUSHI_ENTRIES = [
     "slug": "uni-brands",
     "hasPhoto": false,
     "taste": "A reputable packer is a tier signal — but format and origin still dominate flavor.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Uni no erabikata",
@@ -2065,7 +2216,8 @@ window.SUSHI_ENTRIES = [
     "slug": "uni-cheat-code",
     "hasPhoto": false,
     "taste": "Taste depends on all four axes, not species alone.",
-    "category": "Uni"
+    "category": "Uni",
+    "season": ["summer"]
   },
   {
     "romaji": "Ikura",
@@ -2078,7 +2230,8 @@ window.SUSHI_ENTRIES = [
     "slug": "ikura",
     "hasPhoto": true,
     "taste": "Salty, briny, eggs that pop in the mouth.",
-    "category": "Roe"
+    "category": "Roe",
+    "season": ["autumn"]
   },
   {
     "romaji": "Sujiko",
@@ -2091,7 +2244,8 @@ window.SUSHI_ENTRIES = [
     "slug": "sujiko",
     "hasPhoto": true,
     "taste": "Salty and intense; eggs still in the membrane.",
-    "category": "Roe"
+    "category": "Roe",
+    "season": ["autumn"]
   },
   {
     "romaji": "Tobiko",
@@ -2104,7 +2258,8 @@ window.SUSHI_ENTRIES = [
     "slug": "tobiko",
     "hasPhoto": true,
     "taste": "Crunchy, mildly briny, slightly sweet — often dyed orange.",
-    "category": "Roe"
+    "category": "Roe",
+    "season": ["summer"]
   },
   {
     "romaji": "Masago",
@@ -2117,7 +2272,8 @@ window.SUSHI_ENTRIES = [
     "slug": "masago",
     "hasPhoto": true,
     "taste": "Smaller, softer pop than tobiko; mild brine.",
-    "category": "Roe"
+    "category": "Roe",
+    "season": ["winter"]
   },
   {
     "romaji": "Kazunoko",
@@ -2130,7 +2286,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kazunoko",
     "hasPhoto": true,
     "taste": "Crunchy, mild, salty; texture-forward.",
-    "category": "Roe"
+    "category": "Roe",
+    "season": ["winter"]
   },
   {
     "romaji": "Tarako",
@@ -2143,7 +2300,8 @@ window.SUSHI_ENTRIES = [
     "slug": "tarako",
     "hasPhoto": true,
     "taste": "Salty and soft; cured pollock roe.",
-    "category": "Roe"
+    "category": "Roe",
+    "season": ["winter"]
   },
   {
     "romaji": "Mentaiko",
@@ -2156,7 +2314,8 @@ window.SUSHI_ENTRIES = [
     "slug": "mentaiko",
     "hasPhoto": true,
     "taste": "Spicy, salty, savory; Korean-influenced.",
-    "category": "Roe"
+    "category": "Roe",
+    "season": ["winter"]
   },
   {
     "romaji": "Karasumi",
@@ -2169,7 +2328,8 @@ window.SUSHI_ENTRIES = [
     "slug": "karasumi",
     "hasPhoto": true,
     "taste": "Dried, dense, intensely savory; bottarga.",
-    "category": "Roe"
+    "category": "Roe",
+    "season": ["autumn", "winter"]
   },
   {
     "romaji": "Akagai",
@@ -2182,7 +2342,8 @@ window.SUSHI_ENTRIES = [
     "slug": "akagai",
     "hasPhoto": true,
     "taste": "Crunchy, briny, lightly sweet.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["winter", "spring"]
   },
   {
     "romaji": "Himo",
@@ -2195,7 +2356,8 @@ window.SUSHI_ENTRIES = [
     "slug": "himo",
     "hasPhoto": true,
     "taste": "Chewy, briny, intense; the frill/mantle of clams.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["winter"]
   },
   {
     "romaji": "Hokkigai",
@@ -2208,7 +2370,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hokkigai",
     "hasPhoto": true,
     "taste": "Sweet, crunchy, subtly briny; pink at the tip.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["winter"]
   },
   {
     "romaji": "Mirugai / Miru-kui",
@@ -2221,7 +2384,8 @@ window.SUSHI_ENTRIES = [
     "slug": "mirugai-miru-kui",
     "hasPhoto": true,
     "taste": "Crunchy, briny, sweet ocean flavor.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["winter"]
   },
   {
     "romaji": "Namigai",
@@ -2234,7 +2398,8 @@ window.SUSHI_ENTRIES = [
     "slug": "namigai",
     "hasPhoto": true,
     "taste": "Like mirugai: crunchy and briny.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["winter"]
   },
   {
     "romaji": "Awabi",
@@ -2247,7 +2412,8 @@ window.SUSHI_ENTRIES = [
     "slug": "awabi",
     "hasPhoto": true,
     "taste": "Raw: very firm, crunchy, clean, oceanic-mineral. Steamed: soft, tender, with concentrated sweetness.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["summer"]
   },
   {
     "romaji": "Awabi kimo",
@@ -2260,7 +2426,8 @@ window.SUSHI_ENTRIES = [
     "slug": "awabi-kimo",
     "hasPhoto": true,
     "taste": "Rich liver; intense abalone flavor concentrated.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["summer"]
   },
   {
     "romaji": "Hotate",
@@ -2273,7 +2440,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hotate",
     "hasPhoto": true,
     "taste": "Buttery, sweet, tender.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["summer", "winter"]
   },
   {
     "romaji": "Kaibashira",
@@ -2286,7 +2454,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kaibashira",
     "hasPhoto": true,
     "taste": "Sweet, firm; classic scallop adductor.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["summer", "winter"]
   },
   {
     "romaji": "Hotate himo",
@@ -2299,7 +2468,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hotate-himo",
     "hasPhoto": true,
     "taste": "Chewier scallop frill; briny.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["summer", "winter"]
   },
   {
     "romaji": "Kaki",
@@ -2312,7 +2482,8 @@ window.SUSHI_ENTRIES = [
     "slug": "kaki",
     "hasPhoto": true,
     "taste": "Briny, creamy, oceanic.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["winter"]
   },
   {
     "romaji": "Hamaguri",
@@ -2325,7 +2496,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hamaguri",
     "hasPhoto": true,
     "taste": "Sweet, slightly chewy; clean.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["spring"]
   },
   {
     "romaji": "Asari",
@@ -2338,7 +2510,8 @@ window.SUSHI_ENTRIES = [
     "slug": "asari",
     "hasPhoto": true,
     "taste": "Briny and soft; usually cooked.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["spring"]
   },
   {
     "romaji": "Torigai",
@@ -2351,7 +2524,8 @@ window.SUSHI_ENTRIES = [
     "slug": "torigai",
     "hasPhoto": true,
     "taste": "Sweet, slightly crunchy; seasonal favorite.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["spring"]
   },
   {
     "romaji": "Tsubugai",
@@ -2364,7 +2538,8 @@ window.SUSHI_ENTRIES = [
     "slug": "tsubugai",
     "hasPhoto": true,
     "taste": "Crunchy, mild, slightly briny.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["winter"]
   },
   {
     "romaji": "Sazae",
@@ -2377,7 +2552,8 @@ window.SUSHI_ENTRIES = [
     "slug": "sazae",
     "hasPhoto": true,
     "taste": "Bitter and oceanic; chewy.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["winter", "spring"]
   },
   {
     "romaji": "Baigai",
@@ -2390,7 +2566,8 @@ window.SUSHI_ENTRIES = [
     "slug": "baigai",
     "hasPhoto": true,
     "taste": "Mild, crunchy, slightly briny whelk.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["winter"]
   },
   {
     "romaji": "Mategai",
@@ -2403,7 +2580,8 @@ window.SUSHI_ENTRIES = [
     "slug": "mategai",
     "hasPhoto": true,
     "taste": "Sweet and briny; razor-clam tender.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["spring"]
   },
   {
     "romaji": "Tairagi",
@@ -2416,7 +2594,8 @@ window.SUSHI_ENTRIES = [
     "slug": "tairagi",
     "hasPhoto": true,
     "taste": "Sweet and firm; large scallop-like.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["winter"]
   },
   {
     "romaji": "Tairagi kaibashira",
@@ -2429,7 +2608,8 @@ window.SUSHI_ENTRIES = [
     "slug": "tairagi-kaibashira",
     "hasPhoto": true,
     "taste": "Same as tairagi adductor: sweet and firm.",
-    "category": "Shellfish"
+    "category": "Shellfish",
+    "season": ["winter"]
   },
   {
     "romaji": "Hoya",
@@ -2442,7 +2622,8 @@ window.SUSHI_ENTRIES = [
     "slug": "hoya",
     "hasPhoto": true,
     "taste": "Polarizing — bitter, briny, distinctively iodine-like.",
-    "category": "Other seafood"
+    "category": "Other seafood",
+    "season": ["summer"]
   },
   {
     "romaji": "Hara-mi",
@@ -2651,5 +2832,85 @@ window.SUSHI_ENTRIES = [
     "hasPhoto": false,
     "taste": "Aged: deeper umami, more concentrated, softer texture.",
     "category": "Prep / technique"
+  },
+  {
+    "romaji": "Honekiri / Hamokiri",
+    "kanji": "ほねきり / 骨切り",
+    "english": "Bone-cutting technique",
+    "detail": "Fine, closely-spaced knife cuts through pin bones, stopping just short of the skin",
+    "certainty": "Category",
+    "notes": "The signature Kansai knife technique for fish riddled with hundreds of tiny, unremovable pin bones — above all hamo (pike conger), which is so bony that honekiri is the only thing that makes it edible.\n\nTechnique: the fillet is laid skin-side down and the chef makes extremely fine, closely spaced cuts (traditionally around 24-26 per 3cm, roughly 1mm apart) straight down through the flesh and bones, stopping just short of cutting through the skin so the fillet stays in one connected piece. The cuts crush the tiny bones into imperceptibility without mincing the fish. Cut too shallow and bones remain; too deep and the skin splits and the fillet falls apart — it takes years to master.\n\nThe special heavy, elongated knife used is itself called a honekiri-bōchō or hamokiri-bōchō — its weight does the cutting work with minimal pressure needed.\n\nAfter honekiri, hamo is usually yubiki'd (hot-water blanched) so the cut sections curl open and \"bloom,\" then served chilled with plum sauce as hamo no otoshi — the iconic Kyoto summer dish of Gion Matsuri.\n\nVs yubiki: honekiri is the bone-neutralizing cut itself; yubiki is the blanching step that follows and makes the cuts visually bloom open. Vs ordinary filleting: honekiri is only needed for a handful of notoriously bony fish (hamo chief among them; occasionally small ayu or funa).\n\nA rare showcase skill — watching a chef perform honekiri is part of the dining theater at proper Kyoto hamo restaurants. See also: hamo, yubiki.",
+    "type": "Preparation / product",
+    "slug": "honekiri",
+    "hasPhoto": false,
+    "taste": "Not a flavor by itself — the technique that makes bone-rich fish like hamo tender and safely edible.",
+    "category": "Prep / technique"
+  },
+  {
+    "romaji": "Ikejime",
+    "kanji": "いけじめ / 活け締め",
+    "english": "Instant-kill & bleed method",
+    "detail": "Spike to the brain, immediate bleeding, then a spinal wire to stop nerve signals",
+    "certainty": "Precise",
+    "notes": "A boat/dockside fish-killing method developed to maximize freshness and shelf life, with roots in the Edo period, long before refrigeration existed.\n\nProcess, in order:\n  1. A spike is driven into the fish's brain (just behind and above the eye) for instant brain death — far less stressful than suffocation or an ice-slurry death.\n  2. The gills/tail are cut and the fish is bled out immediately in water.\n  3. A wire is threaded down the spinal cord (\"shinkei-jime\") to sever the nerve, stopping the post-mortem muscle twitching and nerve signals that would otherwise trigger early rigor mortis and lactic-acid buildup.\n  4. The fish is chilled (often in an ice slurry, sometimes vacuum-sealed) and typically rested/aged for a day or more before use.\n\nWhy it matters for sushi: a stressed, thrashing death floods the muscle with lactic acid and burns through ATP, causing rapid rigor mortis and fast spoilage or off-flavors. Ikejime-processed fish holds its texture and clarity far longer, delays rigor mortis, and enables the umami-building aging (jukusei) that top shops rely on — a well-ikejime'd fish can taste better on day 2-4 than on day 0.\n\nVs jukusei: jukusei is the deliberate aging process itself; ikejime is the preparation that makes safe, high-quality aging possible in the first place. Vs ordinary commercial catch (netted, iced whole): fine for cheaper cuts, but rarely reaches the same clarity, texture, or shelf life.\n\nNow a recognized mark of quality — \"ikejime\" on a fish counter or menu signals careful, premium handling. See also: jukusei.",
+    "type": "Preparation / product",
+    "slug": "ikejime",
+    "hasPhoto": false,
+    "taste": "No flavor of its own — responsible for the clean, clear texture and extended peak-freshness window in high-end sushi fish.",
+    "category": "Prep / technique"
+  },
+  {
+    "romaji": "Kabayaki",
+    "kanji": "かばやき / 蒲焼",
+    "english": "Sweet soy-glazed grilling",
+    "detail": "Split, boned, skewered, and grilled while repeatedly basted with sweet soy tare",
+    "certainty": "Precise",
+    "notes": "The classic technique for cooking eel and similarly elongated, boneless-after-prep fish: split open (butterflied) along the back or belly, gutted and deboned, skewered flat to hold its shape, and grilled over charcoal while repeatedly basted with a thick, sweet-savory tare (soy sauce, mirin, sake, and sugar simmered down to a glaze). Repeated basting builds layered, caramelized flavor.\n\nMost associated with unagi (freshwater eel) — unagi no kabayaki over rice is unadon/unaju. Also used for anago (saltwater conger), and occasionally hamo, dojō (loach), and other soft, oily, boneless-prepped fish.\n\nVs shirayaki: shirayaki is the same eel grilled plain with just salt and no tare, a purist's version that shows off the fish itself; kabayaki is the tare-lacquered version most people know. Vs plain shioyaki (salt-grilling): shioyaki grills a fish whole and intact; kabayaki always involves butterflying, deboning, skewering, and the specific sweet glaze.\n\nRegional style differs: Kanto (Tokyo) steams the fish before grilling for a softer, fluffier result; Kansai (Osaka/Kyoto) grills straight through with no steaming, for a crisper, firmer texture.\n\nUbiquitous and beloved — unagi kabayaki is specifically eaten on Doyo no Ushi no Hi (the midsummer \"Day of the Ox\") to fight summer fatigue. See also: shirayaki.",
+    "type": "Preparation / product",
+    "slug": "kabayaki",
+    "hasPhoto": false,
+    "taste": "Sweet, savory, deeply caramelized soy glaze over rich, fatty grilled fish.",
+    "category": "Prep / technique"
+  },
+  {
+    "romaji": "Shirayaki",
+    "kanji": "しらやき / 白焼き",
+    "english": "Plain-grilled (no sauce)",
+    "detail": "Same prep as kabayaki, but grilled with salt only, no tare",
+    "certainty": "Precise",
+    "notes": "The unsauced counterpart to kabayaki: the fish (almost always unagi) is split, boned, and skewered the same way, but grilled with nothing more than a little salt — no sweet tare glaze. Often eaten instead with a dab of wasabi and a little soy sauce on the side.\n\nConsidered by connoisseurs the purist's test of an eel's true quality, since there's no sauce to mask the fish's own fat and flavor — many specialists judge a restaurant by how good its shirayaki is. Vs kabayaki: identical base preparation, opposite finishing philosophy (bare fish vs sweet lacquer); some tasting menus serve both back-to-back for comparison.\n\nLess common on casual menus than kabayaki — usually a slightly more refined, pricier order at dedicated unagi-ya — but worth ordering if it's offered. See also: kabayaki.",
+    "type": "Preparation / product",
+    "slug": "shirayaki",
+    "hasPhoto": false,
+    "taste": "Clean, smoky, delicately salty — showcases the eel's natural fat and umami undiluted.",
+    "category": "Prep / technique"
+  },
+  {
+    "romaji": "Okoze / Oniokoze",
+    "kanji": "おこぜ / 鬼虎魚",
+    "english": "Devil stinger",
+    "detail": "Inimicus japonicus",
+    "certainty": "Precise",
+    "notes": "Devil stinger, also called oniokoze (\"demon tiger-fish\"). A bizarre-looking, venomous scorpionfish relative — its dorsal spines deliver a genuinely painful sting — but underneath the ugly, camouflaged exterior is one of the most prized white fish in Japanese cuisine.\n\nExtremely firm, glassy-clear flesh with very low fat and very high glutamate/umami concentration; texture and clarity rival fugu. Traditionally served as usuzukuri (paper-thin sashimi slices fanned on the plate, fugu-style), in nabe hot pot, or deep-fried whole (karaage/from-age) since the skin and fins become edible once cooked and the venom is neutralized/removed with the spines.\n\nVs fugu: both are prized white fish served in paper-thin sashimi slices with a similarly clean, dense, umami-rich profile; fugu carries the more famous danger (a lethal toxin requiring licensed chefs), while okoze's danger is a painful sting from handling it live — its flesh itself is not toxic. Okoze is rarer and often pricier at some counters simply because it's hard to source and dangerous to handle.\n\nCaught mostly by hook or trap along rocky coastlines; camouflaged to look like a rock or seaweed clump on the seafloor. Season is genuinely double-peaked: many chefs and fish counters treat it as a winter delicacy (\"the fugu of winter\"), when fat content is highest, but it's also actively caught, celebrated at coastal summer festivals, and recommended by Japanese fish wholesalers as a summer (April–July) fish — so it's very much in season and worth eating mid-summer too, not just in winter.",
+    "type": "Fish / seafood",
+    "slug": "okoze",
+    "hasPhoto": false,
+    "taste": "Ultra-firm, clean, intensely umami; often compared to fugu.",
+    "category": "White fish",
+    "season": ["summer", "winter"]
+  },
+  {
+    "romaji": "Nishin",
+    "kanji": "にしん / 鰊・鯡",
+    "english": "Pacific herring",
+    "detail": "Clupea pallasii",
+    "certainty": "Precise",
+    "notes": "Pacific herring. Called harutsuge-uo (\"the fish that announces spring\") because massive herring runs historically arrived on Hokkaido's coast each spring to spawn, once supporting one of Japan's biggest fisheries (the Hokkaido herring boom collapsed in the mid-20th century and never fully recovered).\n\nEaten several ways: fresh nishin as shioyaki (salt-grilled) or simmered (nishin no kanroni, sweet soy-simmered, often served over soba as nishin-soba, a Kyoto specialty); kunsei (smoked) nishin; and its roe, kazunoko, salted and dried and eaten especially at New Year's as a symbol of fertility (the name puns on \"many children\").\n\nVs kazunoko: kazunoko is specifically the roe/egg skein of nishin, a separate, prized New Year's delicacy in its own right, while \"nishin\" itself usually refers to the flesh. Vs iwashi (sardine) or saba (mackerel): a similarly oily, blue-backed fish, but nishin is milder and less assertive, and more associated with simmered/grilled preparations than raw sushi.\n\nRarely served raw at sushi counters (it spoils fast and is usually processed quickly into kazunoko, smoked, or cooked forms), but a beloved comfort-food fish in home cooking and a Kyoto/Hokkaido specialty. Peak season late winter into spring, tied to the spawning run.",
+    "type": "Fish / seafood",
+    "slug": "nishin",
+    "hasPhoto": false,
+    "taste": "Mild, oily, savory — best known cooked (grilled/simmered) or as kazunoko roe rather than raw.",
+    "category": "Oily fish",
+    "season": ["winter", "spring"]
   }
 ];

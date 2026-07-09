@@ -44,13 +44,30 @@
   .progress {
     color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums;
   }
+  .search-row {
+    margin-bottom: 12px;
+  }
+  .search-input {
+    width: 100%;
+    font: inherit;
+    font-size: 14px;
+    padding: 9px 14px;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    color: var(--ink);
+    border-radius: 999px;
+    box-shadow: none;
+  }
+  .search-input::placeholder { color: var(--muted); }
+  .search-input:focus { outline: none; border-color: var(--accent); }
   .filter-row {
     display: flex; align-items: flex-start; gap: 10px;
     flex-wrap: wrap;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
     font-size: 13px;
     color: var(--muted);
   }
+  .filter-row.season-row { margin-bottom: 18px; }
   .filter-label {
     font-weight: 500;
     padding-top: 6px;
@@ -143,6 +160,14 @@
     /* Bottom controls wrap cleanly if cramped */
     .controls { flex-wrap: wrap; gap: 8px; }
     .left-controls { flex: 1 1 auto; }
+  }
+  /* When JS moves .controls to sit right below the photo (mobile only),
+     style it as an in-card strip instead of a floating pill row. */
+  .controls.in-card {
+    margin: 0;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--line);
+    background: var(--panel);
   }
   @media (max-width: 420px) {
     .kanji { font-size: 24px; }
@@ -381,6 +406,11 @@
     font-weight: 500;
   }
   .badge.type { background: rgba(0,0,0,.05); color: var(--muted); border-color: var(--line); }
+  .badge.season {
+    background: rgba(90,120,70,.12);
+    color: #4c6b3c;
+    border-color: rgba(90,120,70,.28);
+  }
 
   /* footer controls */
   .controls {
@@ -433,6 +463,10 @@
     <span class="progress" id="progress">— / —</span>
   </header>
 
+  <div class="search-row">
+    <input type="search" class="search-input" id="search-input" placeholder="Search by name, kanji, romaji, category…" autocomplete="off" />
+  </div>
+
   <div class="filter-row">
     <div class="filter-label">Decks:</div>
     <div class="filter-chips" id="filter-chips"></div>
@@ -443,7 +477,17 @@
     <button class="mode-toggle" id="browse-mode" title="Show every card with all faces revealed (no quiz)">Browse mode</button>
   </div>
 
+  <div class="filter-row season-row">
+    <div class="filter-label">Season:</div>
+    <div class="filter-chips" id="season-chips"></div>
+    <div class="filter-actions">
+      <button id="season-all">All</button>
+      <button id="season-none">None</button>
+    </div>
+  </div>
+
   <div class="card" id="card"></div>
+  <div id="controls-anchor"></div>
 
   <div class="controls">
     <div class="left-controls">
@@ -477,6 +521,12 @@
   const allBtn = document.getElementById("filter-all");
   const noneBtn = document.getElementById("filter-none");
   const browseBtn = document.getElementById("browse-mode");
+  const searchInput = document.getElementById("search-input");
+  const seasonChipsEl = document.getElementById("season-chips");
+  const seasonAllBtn = document.getElementById("season-all");
+  const seasonNoneBtn = document.getElementById("season-none");
+  const controlsEl = document.querySelector(".controls");
+  const controlsAnchor = document.getElementById("controls-anchor");
 
   // Browse-mode toggle (everything revealed by default — no quiz)
   const MODE_KEY = "sushi-flashcards-browse-mode";
@@ -539,14 +589,73 @@
     chipsEl.appendChild(chip);
   }
 
+  // Season chips: fixed order, only seasons actually present in the data.
+  const SEASON_ORDER = ["spring", "summer", "autumn", "winter"];
+  const seasonCounts = ALL.reduce((m, e) => {
+    for (const s of (e.season || [])) m[s] = (m[s] || 0) + 1;
+    return m;
+  }, {});
+  const seasons = SEASON_ORDER.filter(s => seasonCounts[s]);
+
+  const SEASON_STORAGE_KEY = "sushi-flashcards-active-seasons";
+  function loadActiveSeasons() {
+    try {
+      const raw = localStorage.getItem(SEASON_STORAGE_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) return new Set(parsed.filter(s => seasons.includes(s)));
+      }
+    } catch (e) {}
+    return new Set(seasons); // default: all enabled
+  }
+  function saveActiveSeasons() {
+    try { localStorage.setItem(SEASON_STORAGE_KEY, JSON.stringify([...activeSeasons])); } catch (e) {}
+  }
+  let activeSeasons = loadActiveSeasons();
+
+  function capitalize(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+  function escapeHtml(s) {
+    return s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+
+  for (const season of seasons) {
+    const chip = document.createElement("button");
+    chip.className = "chip";
+    chip.dataset.season = season;
+    chip.textContent = `${capitalize(season)} (${seasonCounts[season]})`;
+    if (activeSeasons.has(season)) chip.classList.add("active");
+    chip.addEventListener("click", () => {
+      if (activeSeasons.has(season)) activeSeasons.delete(season);
+      else activeSeasons.add(season);
+      chip.classList.toggle("active");
+      saveActiveSeasons();
+      applyFilter();
+      newDeck();
+      showCard();
+    });
+    seasonChipsEl.appendChild(chip);
+  }
+
   let DECK = ALL.slice();
   let order = [];
   let pos = 0;
   let current = null;
   let revealed = new Set(); // face ids revealed for current card
 
+  function matchesSearch(e) {
+    const q = searchInput.value.trim().toLowerCase();
+    if (!q) return true;
+    return [e.english, e.romaji, e.kanji, e.category, e.slug]
+      .some(v => v && v.toLowerCase().includes(q));
+  }
+  function matchesSeason(e) {
+    // Entries without a season concept (e.g. cuts/technique) always pass.
+    if (!e.season) return true;
+    return e.season.some(s => activeSeasons.has(s));
+  }
+
   function applyFilter() {
-    DECK = ALL.filter(e => activeCats.has(e.category));
+    DECK = ALL.filter(e => activeCats.has(e.category) && matchesSeason(e) && matchesSearch(e));
   }
   function setAllChips(on) {
     activeCats = on ? new Set(cats) : new Set();
@@ -558,8 +667,31 @@
     newDeck();
     showCard();
   }
+  function setAllSeasonChips(on) {
+    activeSeasons = on ? new Set(seasons) : new Set();
+    for (const chip of seasonChipsEl.querySelectorAll(".chip")) {
+      chip.classList.toggle("active", on);
+    }
+    saveActiveSeasons();
+    applyFilter();
+    newDeck();
+    showCard();
+  }
   allBtn.addEventListener("click", () => setAllChips(true));
   noneBtn.addEventListener("click", () => setAllChips(false));
+  seasonAllBtn.addEventListener("click", () => setAllSeasonChips(true));
+  seasonNoneBtn.addEventListener("click", () => setAllSeasonChips(false));
+  // Debounced so a full reshuffle/re-render doesn't fire on every single
+  // keystroke while typing a search query.
+  let searchDebounce = null;
+  searchInput.addEventListener("input", () => {
+    clearTimeout(searchDebounce);
+    searchDebounce = setTimeout(() => {
+      applyFilter();
+      newDeck();
+      showCard();
+    }, 200);
+  });
 
   function shuffle(arr) {
     const a = arr.slice();
@@ -682,6 +814,7 @@
     val.className = "value";
     if (fish.type)      val.appendChild(makeBadge(fish.type, "type"));
     if (fish.certainty) val.appendChild(makeBadge(fish.certainty));
+    if (fish.season)    for (const s of fish.season) val.appendChild(makeBadge(capitalize(s), "season"));
     badges.appendChild(lab); badges.appendChild(val);
     wrap.appendChild(badges);
 
@@ -721,12 +854,48 @@
     }
   }
 
+  // On narrow screens, move the Next/Reveal/Reshuffle bar to sit right below
+  // the photo face instead of at the very bottom of the card + description.
+  // Guarded: matchMedia is universal in real browsers, but if it's ever
+  // missing (odd embedded webview, etc.) we fall back to "always desktop
+  // layout" instead of letting the whole app's init crash on this line.
+  let mobileQuery = { matches: false, addEventListener() {} };
+  try {
+    if (typeof window.matchMedia === "function") {
+      mobileQuery = window.matchMedia("(max-width: 700px)");
+    }
+  } catch (e) {}
+  function repositionControls() {
+    if (mobileQuery.matches) {
+      const photoFace = cardEl.querySelector(".face-photo");
+      if (photoFace) {
+        photoFace.insertAdjacentElement("afterend", controlsEl);
+        controlsEl.classList.add("in-card");
+        return;
+      }
+    }
+    controlsAnchor.insertAdjacentElement("afterend", controlsEl);
+    controlsEl.classList.remove("in-card");
+  }
+  mobileQuery.addEventListener("change", repositionControls);
+
   function showCard() {
     if (!DECK.length) {
-      cardEl.innerHTML =
-        "<div class='empty-state'>No decks selected.<br>Pick a category above to start, or click <strong>All</strong>.</div>";
+      let message;
+      if (activeCats.size === 0) {
+        message = "No decks selected.<br>Pick a category above to start, or click <strong>All</strong>.";
+      } else if (activeSeasons.size === 0) {
+        message = "No seasons selected.<br>Pick a season above to start, or click <strong>All</strong>.";
+      } else if (searchInput.value.trim()) {
+        message = `No cards match "<strong>${escapeHtml(searchInput.value.trim())}</strong>".<br>Try a different search, or clear it.`;
+      } else {
+        message = "No cards match the current filters.";
+      }
+      cardEl.innerHTML = `<div class='empty-state'>${message}</div>`;
       progressEl.textContent = "0 / 0";
       current = null;
+      controlsAnchor.insertAdjacentElement("afterend", controlsEl);
+      controlsEl.classList.remove("in-card");
       return;
     }
     current = DECK[order[pos]];
@@ -738,6 +907,7 @@
       revealed = new Set([prompt]);
     }
     applyRevealState();
+    repositionControls();
     progressEl.textContent = `${pos + 1} / ${DECK.length}`;
   }
 
